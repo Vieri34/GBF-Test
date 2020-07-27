@@ -1,0 +1,172 @@
+
+/*all*/
+@font-face {
+	font-family: Lora; src: url(fonts/Lora-Regular.ttf);
+}
+
+@font-face {
+	font-family: Narkisim; src: url(../fonts/nrkis.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, nav {
+	text-transform: uppercase;
+	color: #49589F;
+}
+
+header, footer {
+	display: flex;
+	background: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+}
+
+header a, footer a, header nav a {
+	color: #49589F;
+}
+
+header h1, footer h1 {
+	font-size: 1.2em;
+	font-family: Lora, sans-serif;
+	margin: auto 2%;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: gold;
+	transition: 0.3s;
+}
+
+/*header*/
+nav {
+	width: 100%;
+	display: flex;
+    font-size: 1em;
+	font-weight: bold;
+	margin: auto 50px;
+}
+
+nav a {
+	justify-content: space-between;
+	margin: 0 10px;
+}
+
+/*section*/
+.parallax-hero {
+	padding-top: 300px;
+	height: 700px;
+	width: 100%;
+	background-image: url(../images/thumb-1920-877952.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.parallax-two {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	width: 100%;
+	background-image: url(../images/Granblue-Fantasy-Relink_2018_12-15-18_001.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.parallax-three {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	width: 100%;
+	background-image: url(../images/sh7Vfol.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+section h2 {
+	font-family: Narkisim, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+.title1 {
+	font-size: 5em;
+	letter-spacing: 10px;
+	color: white;
+    animation: text 3s 1;
+}
+
+.title2 {
+	font-size: 3em;
+    color: gold;
+    animation: second 6s 1 ease;
+}
+
+@keyframes text {
+    0%{
+        opacity: 0;
+    }
+    30%{
+    	font-size: 4em;
+        opacity: 0;
+    }
+    85%{
+    	font-size: 5em;
+        opacity: 1;
+    }
+}
+
+@keyframes second {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+        margin-top: -100px;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.sectimg {
+	display: flex;
+}
+
+.sectimg img {
+	height: 70vh;
+}
+
+.text {
+	width: 70%;
+	background: white;
+	padding: 60px;
+	margin: 0 auto;
+}
+
+.text p {
+	font-family: Lora, sans-serif;
+	font-size:14px;
+	line-height:24px;
+	text-align: justify;
+}
+/*footer*/
+footer {
+	justify-content: space-between;
+	border-top: 2px solid white;
+	margin-top: 25px;
+}
+
+footer p {
+	margin: 0 2%;
+}

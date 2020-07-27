@@ -1,0 +1,33 @@
+
+#form {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 25px auto;
+	width: 70%;
+}
+
+#form div {
+	width: 100%;
+}
+
+label {
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bold;
+	color: #49589F;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="url"], textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}

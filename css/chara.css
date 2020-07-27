@@ -1,0 +1,165 @@
+
+/*main*/
+section {
+	margin: 25px auto;
+}
+
+main h1, main h2 {
+	font-family: Narkisim, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+main h1 a, main h2 a {
+	color: black;
+}
+
+main h1 a:hover, main h2 a:hover {
+	color: #212121;
+}
+
+main h1 {
+	font-size: 2em;
+	background: #49589F;
+	border-radius: 5px;
+	padding: 5px 0;
+	width: 80%;
+	margin-bottom: 20px;
+}
+
+main h2 {
+	font-size: 1.5em;
+	width: 100%;
+	margin-bottom: 7px;
+}
+
+#YellowStar {
+	color: #D8B80F;
+	text-shadow: 2px 2px 0 black;
+}
+/*section*/
+#GuildDiv {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#CoolBorder {
+	width: 60%;
+	margin: 15px auto;
+	border-bottom: 2px solid #A2A2A2;
+}
+
+figure {
+	margin: 10px 10px;
+	position: relative;
+}
+
+figure img {
+	width: 15vmax;
+	border-radius: 10px;
+}
+
+figcaption {
+	background: rgba(33, 33, 33, 0.7);
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	border-radius: 10px;
+}
+
+figcaption a {
+	font-family: Lora, serif;
+	font-size: 1.5vmax;
+    letter-spacing: 0.05em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+}
+
+figcaption a:hover {
+	color: gold;
+	transition: all ease .3s;
+}
+
+.MC:hover, .FigTransform:hover {
+	transform: scale(1.1);
+	transition: all ease .3s;
+}
+
+/*switch hero image*/
+.MC {
+	position: relative;
+}
+
+.Hero {
+	z-index: 2;
+}
+
+.Heroine {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+}
+
+.HeroLink:hover img {
+	visibility: hidden;
+}
+
+.HeroLink {
+	display: block;
+}
+
+.HeroineLink {
+	visibility: block;
+}
+
+.Heroine figcaption {
+	visibility: hidden;
+}
+/*footer*/
+footer {
+	justify-content: space-between;
+	border-top: 2px solid white;
+	margin-top: 25px;
+}
+
+footer h1 {
+	font-size: 1.5em;
+}
+
+footer p {
+	margin: 0 2%;
+}
+
+/*character page*/
+
+#ProfileImg {
+	width: 50%;
+	border: 2px solid black;
+	border-radius: 20px;
+	margin: 15px;
+}
+
+#CharaProfile {
+	width: 40%;
+	margin: 15px 25px;
+	display: flex;
+	flex-direction: column;
+}
+
+#DescriptionLign {
+	display: flex;
+	padding: 5px 0;
+}
+
+#DescriptionLign h3 {
+	font-size: 1em;
+	width: 25%;
+}
+
+#DescriptionLign p {
+	padding: 0 45px;
+}
+
