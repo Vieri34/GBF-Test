@@ -1,0 +1,161 @@
+/* font */
+@font-face {
+	font-family: WorkSans-ExtraLight; src: url(../fonts/WorkSans-ExtraLight.otf);
+}
+/* section */
+section {
+	width: 100%;
+	margin: auto;
+}
+
+/* hero */
+.parallax-hero {
+	padding-top: 200px;
+	height: 800px;
+	width: 100%;
+	background: url(../images/thumb-1920-877952.jpg) fixed no-repeat top center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+
+.parallax-two {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	width: 100%;
+	background: url(../images/Granblue-Fantasy-Relink_2018_12-15-18_001.jpg) fixed no-repeat center center;
+	background-size: cover;
+}
+
+.parallax-three {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	width: 100%;
+	background: url(../images/sh7Vfol.jpg) fixed no-repeat center center;
+	background-size: cover;
+}
+
+.logoGBF {
+    animation: logo 3s 1;
+}
+
+@keyframes logo {
+    0%{
+        opacity: 0;
+    }
+    30%{
+		font-size: 4em;
+		margin-top: -100px;
+        opacity: 0;
+    }
+    85%{
+    	font-size: 5em;
+        opacity: 1;
+    }
+}
+
+section h2 {
+	font-family: Narkisim, sans-serif;
+	font-size: 5em;
+	font-weight: bold;
+	letter-spacing: 20px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+/* div text */
+.sectionImg {
+	display: flex;
+	justify-content: center;
+}
+
+.sectionImg img {
+	height: 500px;
+	margin: -35px 75px 15px 75px;
+}
+
+.text {
+	flex: 1;
+	background: white;
+	padding: 60px 80px;
+}
+
+section h3 {
+	font-family: Narkisim, sans-serif;
+	font-size: 2.5em;
+	color: #36516d;
+	padding: 15px 0;
+}
+
+.text p {
+	font-family: Lora, sans-serif;
+	font-size: 1.2em;
+	line-height: 24px;
+	text-align: justify;
+    color: #36516d;
+}
+
+/* nav images */
+.IndexdDiv {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.imgCool {
+	width: 40vw;
+	height: 110vh;
+	margin: 25px;
+	overflow: hidden;
+	position: relative;
+	border: none;
+}
+
+.imgCool:hover {
+	transform: none;
+}
+
+.imgCool img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	filter: brightness(90%);
+}
+
+.imgCool img:hover {
+	filter: brightness(100%);
+	transform: scale(1.02);
+	transition: 0.4s;
+}
+
+.captionCool {
+	position: absolute;
+	left: 8%;
+	bottom: 5%;
+	background: none;
+}
+
+.captionCool a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: WorkSans-ExtraLight, sans-serif;
+	text-transform: capitalize;
+	font-size: 2.5em;
+	letter-spacing: 8px;
+	color: white;
+	width: 331px;
+	height: 60px;
+	min-height: 21px;
+	border: 2px solid white;
+	border-radius: 100px;
+	padding: 10px 35px;
+}
+
+.captionCool a:hover {
+	background: white;
+	transition: 0.4s;
+	color: black;
+	text-shadow: initial;
+}

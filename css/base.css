@@ -1,0 +1,72 @@
+
+/* font */
+@font-face {
+	font-family: Lora; src: url(fonts/Lora-Regular.ttf);
+}
+
+@font-face {
+	font-family: Narkisim; src: url(../fonts/nrkis.ttf);
+}
+
+/* all */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, nav {
+	font-family: Narkisim;
+	text-transform: uppercase;
+	color: #49589F;
+}
+
+header, footer {
+	display: flex;
+	background: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+}
+
+header h1, footer h1 {
+	font-size: 2em;
+	margin: auto 2%;
+}
+
+a {
+	text-decoration: none;
+	color: #49589F;
+	;
+}
+
+a:hover {
+	color: #fff;
+    font-weight: bold;
+	text-shadow: #69b4d4 1px 1px 4px, #69b4d4 -1px 1px 4px, #69b4d4 1px -1px 4px, #69b4d4 -1px -1px 4px;
+	transition: 0.3s;
+}
+
+/*header*/
+nav {
+	width: 100%;
+	display: flex;
+    font-size: 1em;
+	font-weight: bold;
+	margin: auto 50px;
+}
+
+nav a {
+	justify-content: space-between;
+	margin: 0 10px;
+}
+
+/*section*/
+
+/*footer*/
+footer {
+	justify-content: space-between;
+	border-top: 2px solid white;
+	margin-top: 25px;
+}
+
+footer p {
+	margin: 0 2%;
+}

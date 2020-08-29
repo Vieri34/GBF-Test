@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="title" content="Titre du Site">
-		<link href="css/styleindex.css" rel="stylesheet" media="all" type="text/css">
+		<link href="css/base.css" rel="stylesheet" media="all" type="text/css">
 		<link href="css/form.css" rel="stylesheet" media="all" type="text/css">
 		<title>GBF | Form</title>
 	</head>
