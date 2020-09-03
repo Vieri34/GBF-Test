@@ -9,10 +9,12 @@ section {
 }
 
 /* hero */
+
 .parallax-hero {
-	padding-top: 200px;
-	height: 800px;
-	width: 100%;
+	position: relative;
+	overflow: hidden;
+	height: 100vh;
+	min-height: 800px;
 	background: url(../images/thumb-1920-877952.jpg) fixed no-repeat top center;
 	background-size: cover;
 	display: flex;
@@ -36,20 +38,25 @@ section {
 }
 
 .logoGBF {
+	height: 100%;
     animation: logo 3s 1;
 }
+
+@media screen and (max-width: 640px) {
+	.logoGBF {
+		height: 35vh;
+	}
+  }
 
 @keyframes logo {
     0%{
         opacity: 0;
     }
     30%{
-		font-size: 4em;
 		margin-top: -100px;
         opacity: 0;
     }
     85%{
-    	font-size: 5em;
         opacity: 1;
     }
 }
@@ -68,12 +75,19 @@ section h2 {
 .sectionImg {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .sectionImg img {
-	height: 500px;
-	margin: -35px 75px 15px 75px;
+	height: 100vh;
+	margin: 0px 75px 15px 75px;
 }
+
+@media screen and (max-width: 640px) {
+	.sectionImg img {
+	  display: none;
+	}
+  }
 
 .text {
 	flex: 1;
@@ -120,13 +134,20 @@ section h3 {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	filter: brightness(90%);
+	filter: brightness(50%);
 }
 
 .imgCool img:hover {
 	filter: brightness(100%);
 	transform: scale(1.02);
 	transition: 0.4s;
+}
+
+.imgCool:hover > .captionCool a {
+	background: white;
+	transition: 0.4s;
+	color: black;
+	text-shadow: initial;
 }
 
 .captionCool {

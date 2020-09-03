@@ -23,20 +23,20 @@
 					<h1><a href="#">Characters</a></h1>
 					<h2><a href="#">Grandcypher</a></h2>
 					<div class="MC">
-					<figure class="Hero"><a class="HeroLink" href="#"><img src="../images/gran2.jpg" alt="Gran"></a>
+					<figure class="Hero"><a class="HeroLink" href="#"><img src="images/gran2.jpg" alt="Gran"></a>
 						<figcaption><a href="#">Gran</a></figcaption>
 					</figure>
-					<figure class="Heroine"><a class="HeroineLink" href="#"><img src="../images/djeeta2.jpg" alt="Djeeta"></a>
+					<figure class="Heroine"><a class="HeroineLink" href="#"><img src="images/djeeta2.jpg" alt="Djeeta"></a>
 						<figcaption><a href="#">Djeeta</a></figcaption>
 					</figure>
 					</div>
-					<figure class="FigTransform"><a href="#"><img src="../images/3040054000_01.jpg" alt="Katalina"></a>
+					<figure class="FigTransform"><a href="#"><img src="images/3040054000_01.jpg" alt="Katalina"></a>
 						<figcaption><a href="#">Katalina</a></figcaption>
 					</figure>
-					<figure class="FigTransform"><a href="#"><img src="../images/Npc_m_3040059000_01.jpg" alt="Rackam"></a>
+					<figure class="FigTransform"><a href="#"><img src="images/Npc_m_3040059000_01.jpg" alt="Rackam"></a>
 						<figcaption><a href="#">Rackam</a></figcaption>
 					</figure>
-					<figure class="FigTransform"><a href="#"><img src="../images/Npc_m_3040077000_01.jpg" alt="Eugene"></a>
+					<figure class="FigTransform"><a href="#"><img src="images/Npc_m_3040077000_01.jpg" alt="Eugene"></a>
 						<figcaption><a href="#">Eugene</a></figcaption>
 					</figure>
 				</div>
@@ -46,16 +46,16 @@
 
 				<div id="GuildDiv">
 					<h2><a href="#">Primal Beast</a></h2>
-					<figure class="FigTransform"><a href="#"><img src="../images/Npc_m_3040196000_01.jpg" alt="Shiva"></a>
+					<figure class="FigTransform"><a href="#"><img src="images/Npc_m_3040196000_01.jpg" alt="Shiva"></a>
 						<figcaption><a href="#">Shiva</a></figcaption>
 					</figure>
-					<figure class="FigTransform"><a href="#"><img src="../images/Npc_m_3040190000_01.jpg" alt="Europa"></a>
+					<figure class="FigTransform"><a href="#"><img src="images/Npc_m_3040190000_01.jpg" alt="Europa"></a>
 						<figcaption><a href="#">Europa</a></figcaption>
 					</figure>
-					<figure class="FigTransform"><a href="#"><img src="../images/Npc_m_3040158000_01.jpg" alt="Alexiel"></a>
+					<figure class="FigTransform"><a href="#"><img src="images/Npc_m_3040158000_01.jpg" alt="Alexiel"></a>
 						<figcaption><a href="#">Alexiel</a></figcaption>
 					</figure>
-					<figure class="FigTransform"><a href="#"><img src="../images/Npc_m_3040212000_01.jpg" alt="Grimnir"></a>
+					<figure class="FigTransform"><a href="#"><img src="images/Npc_m_3040212000_01.jpg" alt="Grimnir"></a>
 						<figcaption><a href="#">Grimnir</a></figcaption>
 					</figure>
 				</div>
